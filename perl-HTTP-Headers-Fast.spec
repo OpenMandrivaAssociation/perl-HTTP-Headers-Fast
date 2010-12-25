@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Faster implementation of HTTP::Headers
 License:    GPL+ or Artistic
@@ -15,6 +15,7 @@ BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Filter::Util::Call)
 BuildRequires: perl(HTTP::Date)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::Requires)
 BuildRequires: perl(YAML)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
