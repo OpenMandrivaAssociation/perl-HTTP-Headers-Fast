@@ -2,14 +2,14 @@
 %define upstream_version 0.16
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.16
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Faster implementation of HTTP::Headers
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/HTTP/HTTP-Headers-Fast-0.16.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/HTTP/HTTP-Headers-Fast-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
