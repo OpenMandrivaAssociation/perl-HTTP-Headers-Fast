@@ -29,14 +29,14 @@ The interface is the same as HTTP::Headers.
 %setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
-perl Makefile.PL INSTALLDIRS=vendor
-%make
+perl Build.PL installdirs=vendor
+./Build
 
 %check
-%make test
+./Build test
 
 %install
-%makeinstall_std
+./Build install destdir=%{buildroot}
 
 %files
 %doc README META.yml Changes
