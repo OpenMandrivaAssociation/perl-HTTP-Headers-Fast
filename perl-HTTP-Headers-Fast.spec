@@ -1,5 +1,5 @@
 %define upstream_name    HTTP-Headers-Fast
-%define upstream_version 0.16
+%define upstream_version 0.17
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -53,5 +53,6 @@ perl Build.PL installdirs=vendor
 + Revision: 625026
 - Add a missing build requires.
 - import perl-HTTP-Headers-Fast
+
 
 

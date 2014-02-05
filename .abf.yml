@@ -1,4 +1,5 @@
 removed_sources:
   HTTP-Headers-Fast-0.13.tar.gz: 71141a4e96b5e8ef419598ae7214c28a201b747e
-sources:
   HTTP-Headers-Fast-0.16.tar.gz: bb38b3b128317fe07304ec4cdf1738fd3eef898b
+sources:
+  HTTP-Headers-Fast-0.17.tar.gz: a91fb8d80ebf62d18565719c4306dfcd4d569b97
